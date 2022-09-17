@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    max-width: 97%;
+    margin: 0 auto;
+    grid-gap: 20px;;
+}
+
+.menu a {
+    text-align: center;
+    padding: 10px;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.container > div:nth-child(n + 4){
+    display: grid;;
+    grid-template-columns: 1fr 1fr;
+}
+.logo img{
+    width: 50px;
+}
+header {
+  border: 0px solid rgb(161, 13, 13);
+    padding: 20px;
+    background-color: black;
+}
+.header__container {
+   border: 0px solid rgb(0, 0, 0);
+   
+}
+.row__header {
+    border: 0px solid rgb(25, 192, 50);
+    
+}
+.header__content {
+    border: 0px solid rgb(23, 52, 212);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__home {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+.a__header{
+    text-decoration: none;
+}
+.li__header {
+    
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 0px solid rgb(255, 0, 0);
+}
+.col__main{
+    display: flex;
+    border: 0px solid rgb(34, 5, 250);
+}
+.container__main{
+    display: flex;
+    border: 0px solid black;
+}
+.row__main{
+    display: flex;
+    border: 0px solid rgb(21, 250, 5);
+}
+
+aside{
+    margin-top: 50px;
+}
+.container__aside img{
+    border: 0px solid black;
+    margin-bottom: 30px;
+}
+.content__aside{
+    color: black;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+footer{
+    margin-top: 50px;
+    
+}
+.container__footer{
+    text-align: center;
+    border: 0px solid rgb(181, 24, 24);
+}
+.content__footer p{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
